@@ -1,0 +1,35 @@
+
+ADMIN SIDE 
+
+Event upload , editing 
+
+Markert place upload , editing 
+
+Blog upload , editing 
+
+Add Memebers  upload , editing 
+
+View all users 
+
+
+
+
+User side 
+
+read blog , comment on blog 
+
+buy Markert place , add to cart 
+
+subricbe to event  , comment on event  , read events 
+
+
+
+Gereanl page 
+
+Home page ,
+
+Contact page , 
+
+about page , 
+
+infomation checking ........

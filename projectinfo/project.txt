@@ -1,0 +1,50 @@
+1) Admin make a post on the website
+
+2) members and non members can view, but only registered members can comment
+
+3) Admin post can be regular blog or upcoming event
+
+4) Event occurs via zoom
+
+5) Interested participants can register to become members
+
+6) Registration fee is handled by you (later is fine)- via bank transaction
+
+7) Website should have a mini market place for sales of items
+
+8) Whereas should have a good website look, very attractive
+
+9) User can  display upcoming projects and fund raised 
+
+
+10) Website should have a login session where Admin can update information.
+
+11. And maintenance, please. This is the crocs most times. Thanks for your effort. Hope to hear from you tonight or tomorrow.
+
+12. Teaching or learning platform. They go clock and are able to learn a translated content.
+
+
+
+
+
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews -Indexes
+    </IfModule>
+
+    RewriteEngine On
+
+    # Handle Authorization Header
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} (.+)/$
+    RewriteRule ^ %1 [L,R=301]
+
+    # Send Requests To Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>

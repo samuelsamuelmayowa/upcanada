@@ -2,7 +2,7 @@
 @section('title','CANADA  || HOME PAGE')
 @section('main-content')
 
-Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non reiciendis similique, temporibus exercitationem soluta nulla! Doloribus placeat, dicta vero excepturi natus deserunt magnam officiis assumenda dolores veritatis doloremque unde atque?
+
     <div class="container-fluid p-0 wow fadeIn" data-wow-delay="0.1s">
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">

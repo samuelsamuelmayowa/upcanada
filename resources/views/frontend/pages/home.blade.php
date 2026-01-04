@@ -1,7 +1,7 @@
 @extends('frontend.layouts.master')
 @section('title','CANADA  || HOME PAGE')
 @section('main-content')
-<H1></H1>MY NAME IS SAMUEL JAMES THIS IS MAYOWA BROTHER </H1>
+<!-- <H1></H1>MY NAME IS SAMUEL JAMES THIS IS MAYOWA BROTHER </H1> -->
     <div class="container-fluid p-0 wow fadeIn" data-wow-delay="0.1s">
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">

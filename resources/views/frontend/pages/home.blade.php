@@ -1,155 +1,33 @@
 @extends('frontend.layouts.master')
-@section('title','CANADA  || HOME PAGE')
+@section('title','CANADA || HOME PAGE')
 @section('main-content')
-<!-- <H1></H1>MY NAME IS SAMUEL JAMES THIS IS MAYOWA BROTHER </H1> -->
-    <div class="container-fluid p-0 wow fadeIn" data-wow-delay="0.1s">
-        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
 
-                    <img class="w-100"  src="img/WhatsApp Image 2026-01-05 at 12.13.58 AM (1).jpeg" alt="Image">
+<!-- HERO / CAROUSEL -->
+<div class="container-fluid p-0 wow fadeIn" data-wow-delay="0.1s">
+    <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="w-100" src="img/WhatsApp Image 2026-01-05 at 12.13.58 AM (1).jpeg" alt="UPU Canada">
 
+                <div class="carousel-caption d-flex align-items-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8 text-center">
+                                <h1 class="display-4 text-white fw-bold mb-4">
+                                    Urhobo Progress Union (UPU) Canada
+                                </h1>
 
-                    <div class="carousel-caption">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-7">
-                                    <h1 class="display-2 text-light mb-5 animated slideInDown">Urhobo Progress Union (UPU) Canada</h1>
-                               <p class="text-2xl md:text-4xl  max-w-4xl mx-auto leading-relaxed text-center font-semibold">
-                                A united national body connecting all Urhobo people across Canada, preserving our heritage, empowering our future, and fostering cultural pride in a multicultural society.
-    <!-- A united national body connecting all Urhobo people across Canada — preserving our heritage, empowering our future, and fostering cultural pride in a multicultural society. -->
-</p>
+                                <p class="fs-5 text-light mb-4">
+                                    A united national body connecting all Urhobo people across Canada,
+                                    preserving our heritage, empowering our future, and fostering cultural
+                                    pride in a multicultural society.
+                                </p>
 
-                                    <a href="{{ route('events') }}"  class="btn btn-primary py-sm-3 px-sm-5">Events</a>
-                                    <a href="{{ route('login') }}"  class="btn btn-light py-sm-3 px-sm-5 ms-3">Become a Member</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="carousel-item">
-                    <img class="w-100" src="img/carousel-2.jpg" alt="Image">
-                    <div class="carousel-caption">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-7">
-                                    <h1 class="display-2 text-light mb-5 animated slideInDown">Safe Driving Is Our Top Priority</h1>
-                                    <a href="" class="btn btn-primary py-sm-3 px-sm-5">Learn More</a>
-                                    <a href="" class="btn btn-light py-sm-3 px-sm-5 ms-3">Our Courses</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-    </div>
-    <!-- Carousel End -->
-
-
-    <!-- Facts Start -->
-    <br/> <br/>
-    <br/>
-    <div class="container-fluid facts py-5 pt-lg-0">
-        <div class="container py-5 pt-lg-0">
-            <div class="row gx-0">
-                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="bg-white shadow d-flex align-items-center h-100 p-4" style="min-height: 150px;">
-                        <div class="d-flex">
-                            <div class="flex-shrink-0 btn-lg-square bg-primary">
-                                <i class="fa fa-car text-white"></i>
-                            </div>
-                            <div class="ps-4">
-                                <h5>Cultural Promotion</h5>
-                                <span>  
-                We promote Urhobo language, history, and traditions through events and education
-            </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.3s">
-                    <div class="bg-white shadow d-flex align-items-center h-100 p-4" style="min-height: 150px;">
-                        <div class="d-flex">
-                            <div class="flex-shrink-0 btn-lg-square bg-primary">
-                                <i class="fa fa-users text-white"></i>
-                            </div>
-                            <div class="ps-4">
-                                <h5>Youth Empowerment</h5>
-                                <span>We support Urhobo youth and families through mentorship and development programs</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="bg-white shadow d-flex align-items-center h-100 p-4" style="min-height: 150px;">
-                        <div class="d-flex">
-                            <div class="flex-shrink-0 btn-lg-square bg-primary">
-                                <i class="fa fa-file-alt text-white"></i>
-                            </div>
-                            <div class="ps-4">
-                                <h5>Events & Outreach</h5>
-                                <span>We organize cultural festivals, outreach programs, and community building events.</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Facts End -->
-
-
-    <!-- About Start -->
-    <!-- <div class="container-xxl py-6">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="position-relative overflow-hidden ps-5 pt-5 h-100" style="min-height: 400px;">
-                        <img class="position-absolute w-100 h-100" src="img/about-1.jpg" alt="" style="object-fit: cover;">
-                        <img class="position-absolute top-0 start-0 bg-white pe-3 pb-3" src="img/about-2.jpg" alt="" style="width: 200px; height: 200px;">
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="h-100">
-                        <h6 class="text-primary text-uppercase mb-2">About Us</h6>
-                        <h1 class="display-6 mb-4">We Help Students To Pass Test & Get A License On The First Try</h1>
-                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                        <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                        <div class="row g-2 mb-4 pb-2">
-                            <div class="col-sm-6">
-                                <i class="fa fa-check text-primary me-2"></i>Fully Licensed
-                            </div>
-                            <div class="col-sm-6">
-                                <i class="fa fa-check text-primary me-2"></i>Online Tracking
-                            </div>
-                            <div class="col-sm-6">
-                                <i class="fa fa-check text-primary me-2"></i>Afordable Fee 
-                            </div>
-                            <div class="col-sm-6">
-                                <i class="fa fa-check text-primary me-2"></i>Best Trainers
-                            </div>
-                        </div>
-                        <div class="row g-4">
-                            <div class="col-sm-6">
-                                <a class="btn btn-primary py-3 px-5" href="">Read More</a>
-                            </div>
-                            <div class="col-sm-6">
-                                <a class="d-inline-flex align-items-center btn btn-outline-primary border-2 p-2" href="tel:+0123456789">
-                                    <span class="flex-shrink-0 btn-square bg-primary">
-                                        <i class="fa fa-phone-alt text-white"></i>
-                                    </span>
-                                    <span class="px-3">+012 345 6789</span>
+                                <a href="{{ route('events') }}" class="btn btn-primary btn-lg px-4 me-2">
+                                    Events
+                                </a>
+                                <a href="{{ route('login') }}" class="btn btn-outline-light btn-lg px-4">
+                                    Become a Member
                                 </a>
                             </div>
                         </div>
@@ -157,172 +35,168 @@
                 </div>
             </div>
         </div>
-    </div> -->
-    <!-- About End -->
 
-
-
-<section class="py-5 bg-light">
-  <div class="container">
-
-    <!-- PAGE HEADER -->
-    <div class="text-center mb-5">
-      <h1 class="fw-bold text-uppercase text-primary">Urhobo Progress Union (UPU) Canada</h1>
-      <p class="text-muted fs-5">
-        A united national body connecting all Urhobo people across Canada, preserving our heritage,
-        empowering our future, and fostering cultural pride in a multicultural society.
-      </p>
+        <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
     </div>
-
-    <!-- HISTORY -->
-    <div class="row mb-5">
-      <div class="col-md-12">
-        <div class="card border-0 shadow-sm p-4">
-          <h3 class="fw-bold text-primary mb-3">History of UPU Canada</h3>
-          <p class="fs-5 text-muted">
-            The Urhobo Progress Union (UPU) Canada was established to serve as a unified national body
-            representing all Urhobo people living across Canada. The formation of UPU Canada reflects
-            the collective desire to preserve Urhobo culture, promote unity, and provide a structured
-            platform for advocacy, development, and cultural engagement.
-          </p>
-
-          <p class="fs-5 text-muted">
-            The official inauguration of the UPU Canada National Body and Executives marked a historic
-            milestone, reinforcing Canada’s place within the global UPU structure and strengthening
-            connections with Urhobo communities worldwide.
-          </p>
-          <div class="ratio ratio-16x9 mt-4 rounded overflow-hidden shadow-sm">
-  <iframe 
-    src="https://www.youtube.com/embed/"
-    title="UPU Canada National Body Inauguration"
-    allowfullscreen>
-  </iframe>
 </div>
 
-<p class="text-muted mt-3 text-center">
-  Canada: UPU President General, <strong>Olorogun Ese Gam</strong>, inaugurates
-  the UPU National Body in Canada.
-</p>
-
-        </div>
-      </div>
-    </div>
-
-    <!-- MISSION & VISION -->
-    <div class="row mb-5">
-      <div class="col-md-6 mb-4">
-        <div class="card border-0 shadow-sm p-4 h-100">
-          <h3 class="fw-bold text-primary mb-3">Our Mission</h3>
-          <p class="fs-5 text-muted">
-            To promote unity among Urhobo people in Canada, preserve and promote Urhobo culture and
-            traditions, empower future generations, and actively contribute to the social and cultural
-            development of our host communities.
-          </p>
-        </div>
-      </div>
-
-      <div class="col-md-6 mb-4">
-        <div class="card border-0 shadow-sm p-4 h-100">
-          <h3 class="fw-bold text-primary mb-3">Our Vision</h3>
-          <p class="fs-5 text-muted">
-            To build a strong, inclusive, and united Urhobo national body in Canada that serves as a
-            beacon of cultural pride, leadership, and sustainable development within a multicultural
-            society.
-          </p>
-
-          
-        </div>
-      </div>
-    </div>
-
-    <!-- INAUGURATION -->
-    <div class="row mb-5">
-      <div class="col-md-12">
-        <div class="card border-0 shadow-sm p-4">
-          <h3 class="fw-bold text-primary mb-3">UPU Canada National Body Inauguration</h3>
-
-          <p class="fs-5 text-muted">
-            The UPU Canada National Body was officially inaugurated by the UPU President General,
-            <strong>Olorogun Ese Gam</strong>, marking a historic moment for Urhobo people in Canada.
-
-            <p>
-                11. 2017 convention in Toronto                                                                                                                                          2018 Picnic                                                                                                                                                                    2022 Gala Nite                                                                                                                                                                  2022 support for Displaced Urhobos at IDP Camp in Jeremy                                                                               2023 Sub branch Joint Picnic                                                                                                                                        2024 Convention                                                                                                                                                       2024 October - Election of the National Body Executives                                                                2024 Immigration Law and Canada Law lecture by Barr. Matthew Tubie                                      2025 End Of Year Event                                                                                                                                                                                                                                                                                                                               2025 Feb- Love Feast                                                                                                                                                2025 Mar- International Women's Day Virtual Summit with Ln. Dcns (Mrs) Evelyn Imokhe, PMJF, NLCF, and Councill of                                                                                                                2025 April- Natural Disaster Relief support Items to The Vulnerable at Ughoton when they had a heavy wind that blew of roofs and homes, rendering people homeless.                                                                                                                                                                                                 2025 April- Edi (Banga/ Palm) Day                                                                                                     2025 April- The Inauguration of UPU Canada National body/ Excos, a formal event that defines Canada's Sovereignty.                                                                                                                          2025 May- Project of Books Donations to Effurun-Otor Primary School                                                                2025 May- Project of Books Donations to Effurun-Otor  Primary School                                           2025 July- National Family Picnic                                                                                                                            2025 September - Mental Health Lecture by Ms. Nnando                                                                        2025 November - International Men's Day Lecture delivered virtually by Dr Edomi, Phd.                                                     2025 December - Participation in UPU Worldwide Convention  at Uvwiamuge                                         2025 December - National End of Year party/ FundRaising.
-            </p>
-          </p>
-
-          <a href="https://rerotv.com/news/canada-upu-president-general-olorogun-ese-gam-inaugurates-upu-national-body-in-canada-video/"
-             target="_blank"
-             class="btn btn-outline-primary mt-2">
-            Watch Inauguration Video
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <!-- MEETING DAYS -->
-    <div class="row mb-5">
-      <div class="col-md-12">
-        <div class="card border-0 shadow-sm p-4 text-center">
-          <h3 class="fw-bold text-primary mb-3">Meeting Days</h3>
-          <p class="fs-5 text-muted mb-0">
-            <strong>3rd Sunday of Every Month</strong><br>
-            <small>(Except Picnic, Convention, Summit, and End of Year Events)</small>
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <!-- EVENTS -->
-    <div class="row mb-5">
-      <div class="col-md-12">
-        <div class="card border-0 shadow-sm p-4">
-          <h3 class="fw-bold text-primary mb-4">Events</h3>
-
-          <div class="row text-center">
-            <div class="col-md-6 mb-3">
-              <a href="#" class="btn btn-primary w-100 py-3 fw-semibold">
-                Past Events
-              </a>
+<!-- KEY PILLARS -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-lg-4">
+                <div class="bg-white shadow-sm p-4 h-100 text-center">
+                    <i class="fa fa-globe fa-2x text-primary mb-3"></i>
+                    <h5 class="fw-bold">Cultural Promotion</h5>
+                    <p class="text-muted">
+                        We promote Urhobo language, history, and traditions through education and cultural events.
+                    </p>
+                </div>
             </div>
 
-            <div class="col-md-6 mb-3">
-              <a href="#" class="btn btn-outline-primary w-100 py-3 fw-semibold">
-                Upcoming Events
-              </a>
+            <div class="col-lg-4">
+                <div class="bg-white shadow-sm p-4 h-100 text-center">
+                    <i class="fa fa-users fa-2x text-primary mb-3"></i>
+                    <h5 class="fw-bold">Youth Empowerment</h5>
+                    <p class="text-muted">
+                        Supporting Urhobo youth and families through mentorship and development initiatives.
+                    </p>
+                </div>
             </div>
-          </div>
 
-          <p class="text-muted mt-3">
-            Clicking on either option will display all uploaded events. Upcoming conventions
-            will include secure payment options via <strong>Stripe</strong> and
-            <strong>Eventbrite</strong>.
-          </p>
+            <div class="col-lg-4">
+                <div class="bg-white shadow-sm p-4 h-100 text-center">
+                    <i class="fa fa-calendar-alt fa-2x text-primary mb-3"></i>
+                    <h5 class="fw-bold">Events & Outreach</h5>
+                    <p class="text-muted">
+                        Organizing festivals, community outreach, and national engagement programs.
+                    </p>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-
-    <!-- ADVERT PLACEMENT -->
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card border-0 shadow-sm p-4 text-center">
-          <h3 class="fw-bold text-primary mb-3">Advert Placement</h3>
-          <p class="fs-5 text-muted mb-1">
-            Phone: <strong>+1 437 979 3996</strong>
-          </p>
-          <p class="fs-5 text-muted">
-            Email: <strong>Urhoboprogressunionofcanada@gmail.com</strong>
-          </p>
-        </div>
-      </div>
-    </div>
-
-  </div>
 </section>
 
+<!-- ABOUT / HISTORY -->
+<section class="py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold text-primary">History of UPU Canada</h2>
+            <p class="text-muted fs-5">
+                Strengthening unity and cultural identity across Canada
+            </p>
+        </div>
 
+        <div class="card border-0 shadow-sm p-4">
+            <p class="fs-5 text-muted">
+                The Urhobo Progress Union (UPU) Canada was established as a unified national body
+                representing Urhobo people across Canada. It serves as a platform for cultural
+                preservation, leadership, advocacy, and community development.
+            </p>
 
-   
+            <p class="fs-5 text-muted">
+                The inauguration of the UPU Canada National Body and Executives marked a historic
+                milestone, reinforcing Canada’s position within the global UPU structure.
+            </p>
 
+            <!-- VIDEO -->
+            <div class="ratio ratio-16x9 mt-4 rounded overflow-hidden shadow-sm">
+                <iframe
+                    src="https://www.youtube.com/embed/"
+                    title="UPU Canada National Body Inauguration"
+                    allowfullscreen>
+                </iframe>
+            </div>
 
+            <p class="text-muted mt-3 text-center">
+                Canada: UPU President General <strong>Olorogun Ese Gam</strong> inaugurates
+                the UPU Canada National Body.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- MISSION & VISION -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="card border-0 shadow-sm p-4 h-100">
+                    <h4 class="fw-bold text-primary">Our Mission</h4>
+                    <p class="fs-5 text-muted">
+                        To promote unity, preserve Urhobo culture, empower future generations,
+                        and contribute positively to Canadian society.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card border-0 shadow-sm p-4 h-100">
+                    <h4 class="fw-bold text-primary">Our Vision</h4>
+                    <p class="fs-5 text-muted">
+                        To build a strong, inclusive Urhobo national body that fosters leadership,
+                        cultural pride, and sustainable development.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- EVENTS -->
+<section class="py-5">
+    <div class="container">
+        <div class="card border-0 shadow-sm p-4 text-center">
+            <h3 class="fw-bold text-primary mb-4">Events</h3>
+
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <a href="#" class="btn btn-primary btn-lg w-100">Past Events</a>
+                </div>
+                <div class="col-md-6">
+                    <a href="#" class="btn btn-outline-primary btn-lg w-100">Upcoming Events</a>
+                </div>
+            </div>
+
+            <p class="text-muted mt-3">
+                Upcoming conventions will include secure payments via
+                <strong>Stripe</strong> and <strong>Eventbrite</strong>.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- MEETING DAYS -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="card border-0 shadow-sm p-4 text-center">
+            <h3 class="fw-bold text-primary">Meeting Days</h3>
+            <p class="fs-5 text-muted">
+                <strong>3rd Sunday of Every Month</strong><br>
+                <small>(Except Picnic, Convention, Summit, and End of Year Events)</small>
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- ADVERT -->
+<section class="py-5">
+    <div class="container">
+        <div class="card border-0 shadow-sm p-4 text-center">
+            <h3 class="fw-bold text-primary mb-3">Advert Placement</h3>
+            <p class="fs-5 text-muted mb-1">
+                Phone: <strong>+1 437 979 3996</strong>
+            </p>
+            <p class="fs-5 text-muted">
+                Email: <strong>Urhoboprogressunionofcanada@gmail.com</strong>
+            </p>
+        </div>
+    </div>
+</section>
 
 @endsection

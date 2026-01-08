@@ -3,20 +3,7 @@
 @section('title','CANADA PROJECT || Login Page')
 
 @section('main-content')
-<!-- Breadcrumbs -->
-<!-- <div class="bg-light py-3">
-    <div class="container">
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb mb-0">
-                <li class="breadcrumb-item"><a href="{{ route('home') }}">Home <i class="ti-arrow-right"></i></a></li>
-                <li class="breadcrumb-item active" aria-current="page">Login</li>
-            </ol>
-        </nav>
-    </div>
-</div> -->
-<!-- End Breadcrumbs -->
 
-<!-- Login Section -->
 <section class="py-5" style="margin-top: 140px;">  
     <div class="container">
         <div class="row justify-content-center">
@@ -24,7 +11,7 @@
                 <div class="card shadow-sm">
                     <div class="card-body">
                         <!-- <h3 class="card-title mb-4">Login</h3> -->
-                        <p class="mb-4">Please login to continue</p>
+                        <p class="mb-4">Please login to continue </p>
 
                         <form method="POST" action="{{ route('login') }}">
                             @csrf

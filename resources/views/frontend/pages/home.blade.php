@@ -16,7 +16,8 @@
                                 <div class="col-lg-7">
                                     <h1 class="display-2 text-light mb-5 animated slideInDown">Urhobo Progress Union (UPU) Canada</h1>
                                <p class="text-2xl md:text-4xl  max-w-4xl mx-auto leading-relaxed text-center font-semibold">
-    A united national body connecting all Urhobo people across Canada — preserving our heritage, empowering our future, and fostering cultural pride in a multicultural society.
+                                A united national body connecting all Urhobo people across Canada, preserving our heritage, empowering our future, and fostering cultural pride in a multicultural society.
+    <!-- A united national body connecting all Urhobo people across Canada — preserving our heritage, empowering our future, and fostering cultural pride in a multicultural society. -->
 </p>
 
                                     <a href="{{ route('events') }}"  class="btn btn-primary py-sm-3 px-sm-5">Events</a>
@@ -160,122 +161,167 @@
     <!-- About End -->
 
 
-    <!-- Courses Start -->
-    <div class="container-xxl courses my-6 py-6 pb-0">
-        <div class="container">
-            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <h1 class="text-primary text-uppercase mb-2">Our Misson</h1>
-                <!-- <h1 class="display-6 mb-4">Our Courses Upskill You With Driving Training</h1> -->
-            </div>
-            <div class="row g-4 justify-content-center">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="courses-item d-flex flex-column bg-white overflow-hidden h-100">
-                        <div class="text-center p-4 pt-0">
-                            <div class="d-inline-block bg-primary text-white fs-5 py-1 px-4 mb-4">1</div>
-                            <!-- <h5 class="mb-3">Automatic Car Lessons</h5> -->
-                            <p>  The Urhobo Progress Union (UPU) of Canada National is the officially recognized national umbrella organization representing Urhobo people across Canada.
-                We are a cultural, non-profit, and community-driven body committed to the preservation, promotion, and advancement of Urhobo heritage, unity, and values
-                within the Canadian multicultural landscape.</p>
-                            <!-- <ol class="breadcrumb justify-content-center mb-0"> -->
-                                <!-- <li class="breadcrumb-item small"><i class="fa fa-signal text-primary me-2"></i>Beginner</li> -->
-                                <!-- <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-primary me-2"></i>3 Week</li> -->
-                            <!-- </ol> -->
-                        </div>
-                        <!-- <div class="position-relative mt-auto"> -->
-                            <!-- <img class="img-fluid" src="img/courses-1.jpg" alt=""> -->
-                            <!-- <div class="courses-overlay"> -->
-                                <!-- <a class="btn btn-outline-primary border-2" href="">Read More</a> -->
-                            <!-- </div> -->
-                        <!-- </div> -->
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="courses-item d-flex flex-column bg-white overflow-hidden h-100">
-                        <div class="text-center p-4 pt-0">
-                            <div class="d-inline-block bg-primary text-white fs-5 py-1 px-4 mb-4">2</div>
-                            <!-- <h5 class="mb-3">Highway Driving Lesson</h5> -->
-                            <p> Founded to foster a strong sense of identity, belonging, and collaboration among Urhobo descendants in Canada, UPU Canada serves as a central platform for advocacy,
-                cultural education, youth empowerment, and social development.</p>
-                            <!-- <ol class="breadcrumb justify-content-center mb-0"> -->
-                                <!-- <li class="breadcrumb-item small"><i class="fa fa-signal text-primary me-2"></i>Beginner</li> -->
-                                <!-- <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-primary me-2"></i>3 Week</li> -->
-                            <!-- </ol> -->
-                        </div>
-                        <!-- <div class="position-relative mt-auto"> -->
-                            <!-- <img class="img-fluid" src="img/courses-2.jpg" alt=""> -->
-                            <!-- <div class="courses-overlay"> -->
-                                <!-- <a class="btn btn-outline-primary border-2" href="">Read More</a> -->
-                            <!-- </div> -->
-                        <!-- </div> -->
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="courses-item d-flex flex-column bg-white overflow-hidden h-100">
-                        <div class="text-center p-4 pt-0">
-                            <div class="d-inline-block bg-primary text-white fs-5 py-1 px-4 mb-4">3</div>
-                            <!-- <h5 class="mb-3">International Driving</h5> -->
-                            <p>  With the inauguration of the National Body on April 27, 2025, under the globally recognized structure of the UPU Worldwide, we now operate with a unified voice,
-                clear vision, and strategic purpose ,At UPU Canada, we believe in progress through unity, and we stand firm in our mission to uplift our people, preserve our identity,
-                and contribute positively to the communities we are part of.</p>
-                            <!-- <ol class="breadcrumb justify-content-center mb-0"> -->
-                                <!-- <li class="breadcrumb-item small"><i class="fa fa-signal text-primary me-2"></i>Beginner</li> -->
-                                <!-- <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-primary me-2"></i>3 Week</li> -->
-                            <!-- </ol> -->
-                        </div>
-                        <!-- <div class="position-relative mt-auto"> -->
-                            <!-- <img class="img-fluid" src="img/courses-3.jpg" alt=""> -->
-                            <!-- <div class="courses-overlay"> -->
-                                <!-- <a class="btn btn-outline-primary border-2" href="">Read More</a> -->
-                            <!-- </div> -->
-                        <!-- </div> -->
-                    </div>
-                </div>
-                <div class="col-lg-8 my-6 mb-0 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="bg-primary text-center p-5">
-                        <h1 class="mb-4">Send a request</h1>
-                        <form>
-                            <div class="row g-3">
-                                <div class="col-sm-6">
-                                    <div class="form-floating">
-                                        <input type="text" class="form-control border-0" id="gname" placeholder="Gurdian Name">
-                                        <label for="gname">Your Name</label>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="form-floating">
-                                        <input type="email" class="form-control border-0" id="gmail" placeholder="Gurdian Email">
-                                        <label for="gmail">Your Email</label>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <!-- <div class="form-floating"> -->
-                                        <!-- <input type="text" class="form-control border-0" id="cname" placeholder="Child Name"> -->
-                                        <!-- <label for="cname">Courses Type</label> -->
-                                    <!-- </div> -->
-                                </div>
-                                <div class="col-sm-6">
-                                    <!-- <div class="form-floating"> -->
-                                        <!-- <input type="text" class="form-control border-0" id="cage" placeholder="Child Age"> -->
-                                        <!-- <label for="cage">Car Type</label> -->
-                                    <!-- </div> -->
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-floating">
-                                        <textarea class="form-control border-0" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
-                                        <label for="message">Message</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <button class="btn btn-dark w-100 py-3" type="submit">Submit</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
+
+<section class="py-5 bg-light">
+  <div class="container">
+
+    <!-- PAGE HEADER -->
+    <div class="text-center mb-5">
+      <h1 class="fw-bold text-uppercase text-primary">Urhobo Progress Union (UPU) Canada</h1>
+      <p class="text-muted fs-5">
+        A united national body connecting all Urhobo people across Canada, preserving our heritage,
+        empowering our future, and fostering cultural pride in a multicultural society.
+      </p>
     </div>
-    <!-- Courses End -->
+
+    <!-- HISTORY -->
+    <div class="row mb-5">
+      <div class="col-md-12">
+        <div class="card border-0 shadow-sm p-4">
+          <h3 class="fw-bold text-primary mb-3">History of UPU Canada</h3>
+          <p class="fs-5 text-muted">
+            The Urhobo Progress Union (UPU) Canada was established to serve as a unified national body
+            representing all Urhobo people living across Canada. The formation of UPU Canada reflects
+            the collective desire to preserve Urhobo culture, promote unity, and provide a structured
+            platform for advocacy, development, and cultural engagement.
+          </p>
+
+          <p class="fs-5 text-muted">
+            The official inauguration of the UPU Canada National Body and Executives marked a historic
+            milestone, reinforcing Canada’s place within the global UPU structure and strengthening
+            connections with Urhobo communities worldwide.
+          </p>
+          <div class="ratio ratio-16x9 mt-4 rounded overflow-hidden shadow-sm">
+  <iframe 
+    src="https://www.youtube.com/embed/"
+    title="UPU Canada National Body Inauguration"
+    allowfullscreen>
+  </iframe>
+</div>
+
+<p class="text-muted mt-3 text-center">
+  Canada: UPU President General, <strong>Olorogun Ese Gam</strong>, inaugurates
+  the UPU National Body in Canada.
+</p>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- MISSION & VISION -->
+    <div class="row mb-5">
+      <div class="col-md-6 mb-4">
+        <div class="card border-0 shadow-sm p-4 h-100">
+          <h3 class="fw-bold text-primary mb-3">Our Mission</h3>
+          <p class="fs-5 text-muted">
+            To promote unity among Urhobo people in Canada, preserve and promote Urhobo culture and
+            traditions, empower future generations, and actively contribute to the social and cultural
+            development of our host communities.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-6 mb-4">
+        <div class="card border-0 shadow-sm p-4 h-100">
+          <h3 class="fw-bold text-primary mb-3">Our Vision</h3>
+          <p class="fs-5 text-muted">
+            To build a strong, inclusive, and united Urhobo national body in Canada that serves as a
+            beacon of cultural pride, leadership, and sustainable development within a multicultural
+            society.
+          </p>
+
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- INAUGURATION -->
+    <div class="row mb-5">
+      <div class="col-md-12">
+        <div class="card border-0 shadow-sm p-4">
+          <h3 class="fw-bold text-primary mb-3">UPU Canada National Body Inauguration</h3>
+
+          <p class="fs-5 text-muted">
+            The UPU Canada National Body was officially inaugurated by the UPU President General,
+            <strong>Olorogun Ese Gam</strong>, marking a historic moment for Urhobo people in Canada.
+
+            <p>
+                11. 2017 convention in Toronto                                                                                                                                          2018 Picnic                                                                                                                                                                    2022 Gala Nite                                                                                                                                                                  2022 support for Displaced Urhobos at IDP Camp in Jeremy                                                                               2023 Sub branch Joint Picnic                                                                                                                                        2024 Convention                                                                                                                                                       2024 October - Election of the National Body Executives                                                                2024 Immigration Law and Canada Law lecture by Barr. Matthew Tubie                                      2025 End Of Year Event                                                                                                                                                                                                                                                                                                                               2025 Feb- Love Feast                                                                                                                                                2025 Mar- International Women's Day Virtual Summit with Ln. Dcns (Mrs) Evelyn Imokhe, PMJF, NLCF, and Councill of                                                                                                                2025 April- Natural Disaster Relief support Items to The Vulnerable at Ughoton when they had a heavy wind that blew of roofs and homes, rendering people homeless.                                                                                                                                                                                                 2025 April- Edi (Banga/ Palm) Day                                                                                                     2025 April- The Inauguration of UPU Canada National body/ Excos, a formal event that defines Canada's Sovereignty.                                                                                                                          2025 May- Project of Books Donations to Effurun-Otor Primary School                                                                2025 May- Project of Books Donations to Effurun-Otor  Primary School                                           2025 July- National Family Picnic                                                                                                                            2025 September - Mental Health Lecture by Ms. Nnando                                                                        2025 November - International Men's Day Lecture delivered virtually by Dr Edomi, Phd.                                                     2025 December - Participation in UPU Worldwide Convention  at Uvwiamuge                                         2025 December - National End of Year party/ FundRaising.
+            </p>
+          </p>
+
+          <a href="https://rerotv.com/news/canada-upu-president-general-olorogun-ese-gam-inaugurates-upu-national-body-in-canada-video/"
+             target="_blank"
+             class="btn btn-outline-primary mt-2">
+            Watch Inauguration Video
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- MEETING DAYS -->
+    <div class="row mb-5">
+      <div class="col-md-12">
+        <div class="card border-0 shadow-sm p-4 text-center">
+          <h3 class="fw-bold text-primary mb-3">Meeting Days</h3>
+          <p class="fs-5 text-muted mb-0">
+            <strong>3rd Sunday of Every Month</strong><br>
+            <small>(Except Picnic, Convention, Summit, and End of Year Events)</small>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- EVENTS -->
+    <div class="row mb-5">
+      <div class="col-md-12">
+        <div class="card border-0 shadow-sm p-4">
+          <h3 class="fw-bold text-primary mb-4">Events</h3>
+
+          <div class="row text-center">
+            <div class="col-md-6 mb-3">
+              <a href="#" class="btn btn-primary w-100 py-3 fw-semibold">
+                Past Events
+              </a>
+            </div>
+
+            <div class="col-md-6 mb-3">
+              <a href="#" class="btn btn-outline-primary w-100 py-3 fw-semibold">
+                Upcoming Events
+              </a>
+            </div>
+          </div>
+
+          <p class="text-muted mt-3">
+            Clicking on either option will display all uploaded events. Upcoming conventions
+            will include secure payment options via <strong>Stripe</strong> and
+            <strong>Eventbrite</strong>.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ADVERT PLACEMENT -->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card border-0 shadow-sm p-4 text-center">
+          <h3 class="fw-bold text-primary mb-3">Advert Placement</h3>
+          <p class="fs-5 text-muted mb-1">
+            Phone: <strong>+1 437 979 3996</strong>
+          </p>
+          <p class="fs-5 text-muted">
+            Email: <strong>Urhoboprogressunionofcanada@gmail.com</strong>
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+   
 
 
 

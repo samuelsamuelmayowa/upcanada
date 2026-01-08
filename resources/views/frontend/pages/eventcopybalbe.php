@@ -3,14 +3,13 @@
 @section('main-content')
 
 <section id="latest-blog" class="py-5">
-  <div class="container">
+  <div class="container-fluid">
 
     <!-- HEADER -->
     <div class="row">
       <div class="col-12">
-          <h2 class="section-title fw-bold text-center">Upcoming Events</h2>
         <div class="section-header d-flex flex-wrap align-items-center justify-content-between my-5">
-        
+          <h2 class="section-title fw-bold">Upcoming Events</h2>
 
           <div class="btn-wrap align-right">
             <a href="" class="d-flex align-items-center nav-link fw-semibold">

@@ -6,7 +6,10 @@
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100"  src="img/to.png" alt="Image">
+
+                    <img class="w-100"  src="img/WhatsApp Image 2026-01-05 at 12.13.58 AM (1).jpeg" alt="Image">
+
+
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">

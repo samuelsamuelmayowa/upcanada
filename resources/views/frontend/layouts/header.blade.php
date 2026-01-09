@@ -4,7 +4,7 @@
         <div class="col-lg-7 px-5 text-start">
             <div class="h-100 d-inline-flex align-items-center me-4">
                 <small class="fa fa-map-marker-alt text-primary me-2"></small>
-                <small>14-30 EglintonAvenueWest, suite 562, ON L5R 0C1. Canada.</small>
+                <small>14-30 Eglinton Avenue West, suite 562, ON L5R 0C1. Canada.</small>
             </div>
             <!-- <div class="h-100 d-inline-flex align-items-center"> -->
                 <!-- <small class="far fa-clock text-primary me-2"></small> -->
@@ -33,7 +33,7 @@
 
 <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
     <a href="{{ route('home') }}" class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
-        <h2 class="m-0"><i class="text-primary me-2"></i>UpuCanada</h2>
+        <h2 class="m-0"><i class="text-primary me-2"></i>UPU Canada</h2>
     </a>
    
     

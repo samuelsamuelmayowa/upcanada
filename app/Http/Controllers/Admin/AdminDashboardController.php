@@ -144,7 +144,7 @@ public function productStore(Request $request)
         $manager = new ImageManager(new Driver());
         foreach ($request->file('photo') as $index => $imageFile) {
             $imageName = hexdec(uniqid()) . '.' . strtolower($imageFile->getClientOriginalExtension());
-            $image = $manager->read($imageFile);p
+            $image = $manager->read($imageFile);
             $finalPath = 'uploads/images/' . $imageName;
             $image->save(public_path($finalPath));
 

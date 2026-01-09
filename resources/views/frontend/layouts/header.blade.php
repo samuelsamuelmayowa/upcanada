@@ -33,7 +33,12 @@
 
 <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
     <a href="{{ route('home') }}" class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
-        <h2 class="m-0"><i class="text-primary me-2"></i>UPU Canada</h2>
+       
+       <h2 class="m-0 fw-bold text-uppercase"
+    style="letter-spacing: 5px;">
+    <i class="text-primary me-2"></i>UPU CANADA
+</h2>
+
     </a>
    
     

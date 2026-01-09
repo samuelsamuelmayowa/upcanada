@@ -226,3 +226,28 @@ public function productStore(Request $request)
         return redirect()->route('admin.dashboard')->with('success', 'Admin registered successfully.');
     }
 }
+
+
+
+
+
+
+
+                            // <div class="mb-3">
+                            //     <label for="password" class="form-label fw-semibold">
+                            //         Password
+                            //     </label>
+                            //     <input
+                            //         id="password"
+                            //         type="password"
+                            //         class="form-control form-control-lg @error('password') is-invalid @enderror"
+                            //         name="password"
+                            //         required
+                            //         autocomplete="current-password"
+                            //     >
+                            //     @error('password')
+                            //         <div class="invalid-feedback">
+                            //             {{ $message }}
+                            //         </div>
+                            //     @enderror
+                            // </div>

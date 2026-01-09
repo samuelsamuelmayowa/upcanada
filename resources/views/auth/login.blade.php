@@ -8,6 +8,7 @@
             <div class="col-md-6 col-lg-5">
 
                 {{-- Session Status Message --}}
+           
                 @if (session('status'))
                     <div class="alert alert-success mb-4 text-center">
                         {{ session('status') }}
@@ -49,24 +50,34 @@
                             </div>
 
                             {{-- Password --}}
-                            <div class="mb-3">
-                                <label for="password" class="form-label fw-semibold">
-                                    Password
-                                </label>
-                                <input
-                                    id="password"
-                                    type="password"
-                                    class="form-control form-control-lg @error('password') is-invalid @enderror"
-                                    name="password"
-                                    required
-                                    autocomplete="current-password"
-                                >
-                                @error('password')
-                                    <div class="invalid-feedback">
-                                        {{ $message }}
-                                    </div>
-                                @enderror
-                            </div>
+                            {{-- Password --}}
+<div class="mb-3">
+    <label for="password" class="form-label fw-semibold">
+        Password
+    </label>
+
+    <div class="input-group">
+        <input
+            id="password"
+            type="password"
+            class="form-control form-control-lg @error('password') is-invalid @enderror"
+            name="password"
+            required
+            autocomplete="current-password"
+        >
+
+        <span class="input-group-text bg-white" style="cursor: pointer;"
+              onclick="togglePassword()">
+            <i id="toggleIcon" class="bi bi-eye"></i>
+        </span>
+    </div>
+
+    @error('password')
+        <div class="invalid-feedback d-block">
+            {{ $message }}
+        </div>
+    @enderror
+</div>
 
                             {{-- Remember Me --}}
                             <div class="d-flex justify-content-between align-items-center mb-4">
@@ -122,6 +133,23 @@
         </div>
     </div>
 </section>
+<script>
+    function togglePassword() {
+        const passwordInput = document.getElementById("password");
+        const icon = document.getElementById("toggleIcon");
+
+        if (passwordInput.type === "password") {
+            passwordInput.type = "text";
+            icon.classList.remove("bi-eye");
+            icon.classList.add("bi-eye-slash");
+        } else {
+            passwordInput.type = "password";
+            icon.classList.remove("bi-eye-slash");
+            icon.classList.add("bi-eye");
+        }
+    }
+</script>
+
 
 @endsection
 

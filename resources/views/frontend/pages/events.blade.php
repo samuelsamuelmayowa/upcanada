@@ -190,9 +190,38 @@
     <div class="row g-4">
 
       <!-- Card 1 -->
-      <div class="col-md-6 col-lg-4">
+      <div class="col-md-6 col-lg-6">
         <div class="card border-0 shadow-sm rounded-4 h-100">
-          <img src="https://via.placeholder.com/900x550" class="card-img-top rounded-top-4" alt="Event image">
+          <div id="bookEventCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner rounded-top-4">
+
+    <div class="carousel-item active">
+      <img src="img/schoolone.jpeg" class="d-block w-100" alt="Book Distribution 1">
+    </div>
+
+    <div class="carousel-item">
+      <img src="img/schooltwo.jpeg" class="d-block w-100" alt="Book Distribution 2">
+    </div>
+
+    <div class="carousel-item">
+      <img src="img/schoolthree.jpeg" class="d-block w-100" alt="Book Distribution 3">
+    </div>
+
+    <div class="carousel-item">
+      <img src="img/schoolfour.jpeg" class="d-block w-100" alt="Book Distribution 4">
+    </div>
+
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#bookEventCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#bookEventCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
           <div class="card-body">
             <div class="d-flex gap-2 mb-2">
               <span class="badge text-bg-primary">Outreach</span>
@@ -213,46 +242,7 @@
         </div>
       </div>
 
-      <!-- Card 2 (Example Placeholder) -->
-      <div class="col-md-6 col-lg-4">
-        <div class="card border-0 shadow-sm rounded-4 h-100">
-          <img src="https://via.placeholder.com/900x550" class="card-img-top rounded-top-4" alt="Event image">
-          <div class="card-body">
-            <div class="d-flex gap-2 mb-2">
-              <span class="badge text-bg-success">Community</span>
-              <span class="badge text-bg-secondary">Update</span>
-            </div>
-            <h5 class="fw-bold mb-2">Upcoming Initiative</h5>
-            <p class="text-muted mb-3">
-              Details will be published soon. Please check back for official announcements.
-            </p>
-            <a href="#" class="fw-semibold text-primary text-decoration-none">
-              Coming Soon →
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Card 3 (Example Placeholder) -->
-      <div class="col-md-6 col-lg-4">
-        <div class="card border-0 shadow-sm rounded-4 h-100">
-          <img src="https://via.placeholder.com/900x550" class="card-img-top rounded-top-4" alt="Event image">
-          <div class="card-body">
-            <div class="d-flex gap-2 mb-2">
-              <span class="badge text-bg-warning">Highlight</span>
-              <span class="badge text-bg-secondary">Media</span>
-            </div>
-            <h5 class="fw-bold mb-2">National Body Activity</h5>
-            <p class="text-muted mb-3">
-              A highlight of national body activities and community engagement across Canada.
-            </p>
-            <a href="#" class="fw-semibold text-primary text-decoration-none">
-              View Highlights →
-            </a>
-          </div>
-        </div>
-      </div>
-
+    
     </div>
 
   </div>

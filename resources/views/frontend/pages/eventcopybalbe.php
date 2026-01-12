@@ -117,3 +117,44 @@
 </style>
 
 @endsection
+
+
+  <!-- Card 2 (Example Placeholder) -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card border-0 shadow-sm rounded-4 h-100">
+          <img src="https://via.placeholder.com/900x550" class="card-img-top rounded-top-4" alt="Event image">
+          <div class="card-body">
+            <div class="d-flex gap-2 mb-2">
+              <span class="badge text-bg-success">Community</span>
+              <span class="badge text-bg-secondary">Update</span>
+            </div>
+            <h5 class="fw-bold mb-2">Upcoming Initiative</h5>
+            <p class="text-muted mb-3">
+              Details will be published soon. Please check back for official announcements.
+            </p>
+            <a href="#" class="fw-semibold text-primary text-decoration-none">
+              Coming Soon →
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 (Example Placeholder) -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card border-0 shadow-sm rounded-4 h-100">
+          <img src="https://via.placeholder.com/900x550" class="card-img-top rounded-top-4" alt="Event image">
+          <div class="card-body">
+            <div class="d-flex gap-2 mb-2">
+              <span class="badge text-bg-warning">Highlight</span>
+              <span class="badge text-bg-secondary">Media</span>
+            </div>
+            <h5 class="fw-bold mb-2">National Body Activity</h5>
+            <p class="text-muted mb-3">
+              A highlight of national body activities and community engagement across Canada.
+            </p>
+            <a href="#" class="fw-semibold text-primary text-decoration-none">
+              View Highlights →
+            </a>
+          </div>
+        </div>
+      </div>

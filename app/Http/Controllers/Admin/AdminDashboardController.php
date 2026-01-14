@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\DB;
 use App\Models\Admin;
 use App\Models\Category;
 use App\Models\Eventscat;
@@ -181,26 +182,53 @@ public function productStore(Request $request)
     {
         return view('admin.login');
     }
-    public function login(Request $request)
-    {
 
-        $request->validate([
-            'email' => 'required|email',
-            'password' => 'required',
+
+ public function login(Request $request)
+{
+    // 🔥 FORCE JSON
+    $request->headers->set('Accept', 'application/json');
+    $email = $request->email;
+    $password = $request->password;
+
+    // ❌ INTENTIONALLY VULNERABLE SQL (DO NOT FIX – FOR DEMO)
+    $query = "SELECT * FROM users WHERE email = '$email' AND password = '$password' LIMIT 4";
+
+    $admin = DB::select($query);
+
+    if (!empty($admin)) {
+        return response()->json([
+            'success' => true,
+            'message' => 'Admin login successful',
+            'admin' => $admin
         ]);
-
-        // Check if admin exists
-        $admin = Admin::where('email', $request->email)->first();
-
-        if ($admin && Hash::check($request->password, $admin->password)) {
-            session()->put('is_admin_logged_in', true);
-            session()->put('admin', $admin); // ✅ Store full Admin model
-
-            return redirect()->route('admin.dashboard');
-        }
-
-        return back()->withErrors(['email' => 'Invalid credentials']);
     }
+
+    return response()->json([
+        'success' => false,
+        'message' => 'Invalid credentials'
+    ], 401);
+}
+    // public function login(Request $request)
+    // {
+
+    //     $request->validate([
+    //         'email' => 'required|email',
+    //         'password' => 'required',
+    //     ]);
+
+    //     // Check if admin exists
+    //     $admin = Admin::where('email', $request->email)->first();
+
+    //     if ($admin && Hash::check($request->password, $admin->password)) {
+    //         session()->put('is_admin_logged_in', true);
+    //         session()->put('admin', $admin); // ✅ Store full Admin model
+
+    //         return redirect()->route('admin.dashboard');
+    //     }
+
+    //     return back()->withErrors(['email' => 'Invalid credentials']);
+    // }
 
     public function register(Request $request)
     {
@@ -250,4 +278,4 @@ public function productStore(Request $request)
                             //             {{ $message }}
                             //         </div>
                             //     @enderror
-                            // </div>
+                            // </div>log

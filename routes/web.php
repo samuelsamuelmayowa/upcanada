@@ -20,8 +20,7 @@ Route::get('/create-admin', function () {
     return 'Admin created';
 });
 /// admin login  
-Route::get('/admin/login', [AdminDashboardController::class, 'showLoginForm'])->name('admin.login');
-Route::post('/admin/login', [AdminDashboardController::class, 'login'])->name('admin.login.submit');
+
 /// user own 
 Route::get('login', [AuthenticatedSessionController::class, 'create'])
     ->middleware('guest')

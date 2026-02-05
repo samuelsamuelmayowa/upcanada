@@ -8,6 +8,7 @@ use App\Http\Controllers\Admin\AdminDashboardController;
 use App\Http\Controllers\PageContoller;
 use App\Http\Controllers\Auth\AuthenticatedSessionController;
 use App\Http\Controllers\CartController;
+use App\Http\Controllers\SitemapController;
 use App\Models\Category;
 use App\Models\Product;
 
@@ -31,12 +32,16 @@ Route::get('register', [AuthenticatedSessionController::class, 'create'])
 
 /// 
 
-// General pages 
 Route::get('/search', [SearchController::class, 'index'])->name('search');
 Route::get('/events', [PageContoller::class, 'events'])->name('events');
 Route::get('/events/{id}', [EventsController::class, 'subevent'])->name('subevent');
 Route::get('/marketPlace', [PageContoller::class, 'marketPlace'])->name('marketPlace');
 Route::get('/aboutus', [PageContoller::class, 'aboutus'])->name('aboutus');
+
+// SEO Routes
+Route::get('/sitemap.xml', [SitemapController::class, 'index'])->name('sitemap');
+Route::get('/sitemap/products.xml', [SitemapController::class, 'products'])->name('sitemap.products');
+Route::get('/sitemap/events.xml', [SitemapController::class, 'events'])->name('sitemap.events');
 
 
 Route::get('/cart', [CartController::class, 'index'])->name('cart.index');

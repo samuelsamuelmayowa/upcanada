@@ -5,7 +5,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>{{ config('app.name', 'Laravel') }}</title>
+        <!-- SEO Meta Tags -->
+        @if(isset($seo))
+            {!! $seo->render() !!}
+        @else
+            <title>{{ config('app.name', 'Canada Project') }}</title>
+            <meta name="description" content="Your marketplace and events platform">
+            <meta name="keywords" content="marketplace, events, products">
+            <meta property="og:title" content="{{ config('app.name', 'Canada Project') }}">
+            <meta property="og:description" content="Your marketplace and events platform">
+            <meta property="og:type" content="website">
+            <meta name="twitter:card" content="summary_large_image">
+        @endif
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">

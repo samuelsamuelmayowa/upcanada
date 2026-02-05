@@ -186,6 +186,98 @@
       </div>
     </div>
 
+    <!-- 🔥 NEW FEATURED EVENT - VERY VISIBLE -->
+    <div class="row mb-5">
+      <div class="col-12">
+        <div class="card border-0 shadow-xl rounded-4 overflow-hidden" style="background: linear-gradient(135deg, #ff6b6b 0%, #ee5a6f 100%); border: 4px solid #ff6b6b;">
+          <div class="row g-0 align-items-stretch">
+            <!-- Large Featured Image -->
+            <div class="col-lg-6">
+              <img src="img/eventmain.jpeg" alt="Featured Event" class="w-100 h-100 object-fit-cover" style="min-height: 400px; object-fit: cover;">
+            </div>
+
+            <!-- Content Section -->
+            <div class="col-lg-6">
+              <div class="p-5 h-100 d-flex flex-column justify-content-center text-white">
+                <!-- Eye-catching badge -->
+                <div class="mb-3">
+                  <span class="badge bg-white text-danger fs-6 fw-bold px-3 py-2" style="font-size: 18px !important;">🌟 NATIONAL CONVENTION 2026</span>
+                </div>
+
+                <h2 class="fw-bold mb-2" style="font-size: 2.5rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">
+                  URHOBO PROGRESS UNION OF CANADA
+                </h2>
+
+                <p class="mb-4" style="font-size: 1.2rem; font-style: italic; text-shadow: 1px 1px 2px rgba(0,0,0,0.2);">
+                  "A New Dawn of Unity, Culture & Emerging Voices"
+                </p>
+
+                <!-- Event Details Grid -->
+                <div class="row g-3 mb-4">
+                  <div class="col-6">
+                    <div class="bg-white bg-opacity-15 p-3 rounded-3 text-white">
+                      <div class="small opacity-85">📅 Date</div>
+                      <div class="fw-bold fs-6">Jul 31 - Aug 2, 2026</div>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="bg-white bg-opacity-15 p-3 rounded-3 text-white">
+                      <div class="small opacity-85">🎤 Features</div>
+                      <div class="fw-bold fs-6">O'Fresh Live</div>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="bg-white bg-opacity-15 p-3 rounded-3 text-white">
+                      <div class="small opacity-85">📍 Venue</div>
+                      <div class="fw-bold fs-6">Delta by Marriott</div>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="bg-white bg-opacity-15 p-3 rounded-3 text-white">
+                      <div class="small opacity-85">⭐ Guest of Honor</div>
+                      <div class="fw-bold fs-6">Olorogun Barr. Ese Gam Owe</div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Highlights -->
+                <div class="mb-4">
+                  <p class="mb-2" style="font-size: 0.95rem;">
+                    <strong>✨ Featuring:</strong><br>
+                    Famous Bobson (Artist) • Cultural Displays • Lectures • Guest Appearances & More
+                  </p>
+                </div>
+
+                <!-- Buttons -->
+                <div class="d-flex flex-wrap gap-3">
+                  <a href="tel:+14374101670" class="btn btn-white btn-lg fw-bold px-4" style="color: #ff6b6b;">
+                    📞 +1 437 410 1670
+                  </a>
+                  <a href="mailto:info@upucanada.ca" class="btn btn-outline-light btn-lg fw-bold px-4">
+                    📧 Register Now
+                  </a>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="mt-4 pt-3 border-top border-white border-opacity-25">
+                  <p class="small mb-2" style="font-size: 0.85rem;">
+                    📍 <strong>Delta by Marriott</strong><br>
+                    655 Dixon Rd, Etobicoke, ON M9W 1J3, Canada
+                  </p>
+                  <p class="small" style="font-size: 0.85rem;">
+                    <strong>Contact:</strong><br>
+                    📞 +1 647 779 5506 | +1 437 979 3996<br>
+                    📧 urhoboprogressunionofcanada@gmail.com<br>
+                    🌐 www.upucanada.ca
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- More Events (Static Cards) -->
     <div class="row g-4">
 

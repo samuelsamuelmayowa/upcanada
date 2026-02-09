@@ -59,69 +59,54 @@
         </button>
 
         <!-- Collapsible Content -->
-        <div class="collapse show" id="homeEventCollapse">
-          <div class="card border-0 rounded-0 overflow-hidden" style="background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%); border: 4px solid #ffffff; border-top: none;">
-            <div class="row g-0 align-items-stretch">
-              <!-- Large Featured Image -->
-              <div class="col-lg-6">
-                <img src="img/eventmain.jpeg" alt="Featured Event" class="w-100 h-100 object-fit-cover" style="min-height: 300px; object-fit: cover;">
-              </div>
+  <div class="collapse show" id="homeEventCollapse">
+  <div class="card border-0 rounded-0 overflow-hidden shadow-lg"
+       style="background: linear-gradient(135deg, #0f0f0f 0%, #262626 100%);
+              border: 4px solid #ffffff;
+              border-top: none;">
 
-              <!-- Content Section -->
-              <div class="col-lg-6">
-                <div class="p-4 h-100 d-flex flex-column justify-content-center text-white position-relative">
-                  <!-- Close Button (X) -->
-                  <button type="button" class="btn-close btn-close-white position-absolute top-0 end-0 m-3" data-bs-toggle="collapse" data-bs-target="#homeEventCollapse" aria-label="Close" style="width: 40px; height: 40px;"></button>
+    <div class="row g-0 align-items-stretch">
 
-                  <!-- Eye-catching badge -->
-                  <div class="mb-3">
-                    <span class="badge bg-white text-dark fw-bold px-3 py-2" style="font-size: 14px;">🌟 NATIONAL CONVENTION 2026</span>
-                  </div>
+      <!-- Featured Image -->
+      <div class="col-lg-6">
+        <img
+          src="img/eventmain.jpeg"
+          alt="Event Highlight"
+          class="w-100 h-100 object-fit-cover"
+          style="min-height: 320px;"
+        />
+      </div>
 
-                  <h3 class="fw-bold mb-2 text-white" style="font-size: 1.8rem;">
-                    URHOBO PROGRESS UNION OF CANADA
-                  </h3>
+      <!-- Empty / Visual Content Section -->
+      <div class="col-lg-6">
+        <div class="p-4 p-lg-5 h-100 d-flex align-items-center justify-content-center position-relative">
 
-                  <p class="mb-3 text-white" style="font-size: 0.95rem; font-style: italic;">
-                    "A New Dawn of Unity, Culture & Emerging Voices"
-                  </p>
+          <!-- Close Button -->
+          <button
+            type="button"
+            class="btn-close btn-close-white position-absolute top-0 end-0 m-3"
+            data-bs-toggle="collapse"
+            data-bs-target="#homeEventCollapse"
+            aria-label="Close">
+          </button>
 
-                  <!-- Event Quick Details -->
-                  <div class="row g-2 mb-3">
-                    <div class="col-6">
-                      <div class="bg-white bg-opacity-10 p-2 rounded-2 text-white border border-white border-opacity-25">
-                        <div class="small opacity-85">📅 Dates</div>
-                        <div class="fw-bold" style="font-size: 0.9rem;">Jul 31 - Aug 2</div>
-                      </div>
-                    </div>
-                    <div class="col-6">
-                      <div class="bg-white bg-opacity-10 p-2 rounded-2 text-white border border-white border-opacity-25">
-                        <div class="small opacity-85">🎤 O'Fresh Live</div>
-                        <div class="fw-bold" style="font-size: 0.9rem;">+More</div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <!-- Buttons -->
-                  <div class="d-flex flex-wrap gap-2">
-                    <a href="tel:+14374101670" class="btn btn-light fw-bold px-3 py-2" style="color: #1a1a1a; font-size: 0.9rem;">
-                      📞 Call Now
-                    </a>
-                    <a href="mailto:info@upucanada.ca" class="btn btn-outline-light fw-bold px-3 py-2" style="font-size: 0.9rem;">
-                      📧 Register
-                    </a>
-                  </div>
-
-                  <p class="small text-white mt-2 mb-0" style="font-size: 0.8rem;">
-                    📍 Delta by Marriott, Etobicoke<br>
-                    🌐 www.upucanada.ca
-                  </p>
-                </div>
-              </div>
-            </div>
+          <!-- Optional: subtle placeholder (remove if not needed) -->
+          <!--
+          <div class="text-white-50 text-center small">
+            Event Highlight
           </div>
+          -->
+
         </div>
       </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+        
     </div>
   </div>
 </div>

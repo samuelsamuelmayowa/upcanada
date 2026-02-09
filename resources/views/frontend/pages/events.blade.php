@@ -230,7 +230,7 @@
                   </p>
 
                   <!-- Event Details Grid -->
-                  <div class="row g-3 mb-4">
+                  <!-- <div class="row g-3 mb-4">
                     <div class="col-6">
                       <div class="bg-white bg-opacity-10 p-3 rounded-3 text-white border border-white border-opacity-25">
                         <div class="small opacity-85">📅 Date</div>
@@ -255,7 +255,7 @@
                         <div class="fw-bold fs-6">Olorogun Barr. Ese Gam Owe</div>
                       </div>
                     </div>
-                  </div>
+                  </div> -->
 
                   <!-- Highlights -->
                   <div class="mb-4">

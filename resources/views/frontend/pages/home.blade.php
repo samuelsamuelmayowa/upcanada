@@ -70,7 +70,7 @@
       <!-- Featured Image -->
       <div class="col-lg-6">
         <img
-          src="img/eventmain.jpeg"
+          src="img/newimage.jpeg"
           alt="Event Highlight"
           class="w-100 h-100 object-fit-cover"
           style="min-height: 320px;"

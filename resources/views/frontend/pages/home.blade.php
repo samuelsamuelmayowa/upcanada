@@ -58,51 +58,41 @@
           </span>
         </button>
 
-        <!-- Collapsible Content -->
-  <div class="collapse show" id="homeEventCollapse">
-  <div class="card border-0 rounded-0 overflow-hidden shadow-lg"
-       style="background: linear-gradient(135deg, #0f0f0f 0%, #262626 100%);
-              border: 4px solid #ffffff;
-              border-top: none;">
 
-    <div class="row g-0 align-items-stretch">
 
-      <!-- Featured Image -->
-      <div class="col-lg-6">
-        <img
-          src="img/newer.jpeg"
+
+
+
+
+        <div class="card border-0 rounded-0 overflow-hidden shadow-lg"
+     style="background: linear-gradient(135deg, #0f0f0f 0%, #262626 100%);
+            border: 4px solid #ffffff;
+            border-top: none;">
+
+  <div class="d-flex align-items-center justify-content-center position-relative"
+       style="min-height: 360px;">
+
+    <img
+       src="img/newer.jpeg"
           alt="Event Highlight"
           class="w-100 h-100 object-fit-cover"
           style="min-height: 320px;"
-        />
-      </div>
+    />
 
-      <!-- Empty / Visual Content Section -->
-      <div class="col-lg-6">
-        <div class="p-4 p-lg-5 h-100 d-flex align-items-center justify-content-center position-relative">
+    <!-- Close Button -->
+    <button
+      type="button"
+      class="btn-close btn-close-white position-absolute top-0 end-0 m-3"
+      data-bs-toggle="collapse"
+      data-bs-target="#homeEventCollapse"
+      aria-label="Close">
+    </button>
 
-          <!-- Close Button -->
-          <button
-            type="button"
-            class="btn-close btn-close-white position-absolute top-0 end-0 m-3"
-            data-bs-toggle="collapse"
-            data-bs-target="#homeEventCollapse"
-            aria-label="Close">
-          </button>
-
-          <!-- Optional: subtle placeholder (remove if not needed) -->
-          <!--
-          <div class="text-white-50 text-center small">
-            Event Highlight
-          </div>
-          -->
-
-        </div>
-      </div>
-
-    </div>
   </div>
 </div>
+
+        <!-- Collapsible Content -->
+
 
 
 

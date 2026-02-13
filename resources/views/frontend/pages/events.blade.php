@@ -207,7 +207,7 @@
             <div class="row g-0 align-items-stretch">
               <!-- Large Featured Image -->
               <div class="col-lg-6">
-                <img src="img/newimage.jpeg" alt="Featured Event" class="w-100 h-100 object-fit-cover" style="min-height: 400px; object-fit: cover;">
+                <img src="img/newer.jpeg" alt="Featured Event" class="w-100 h-100 object-fit-cover" style="min-height: 400px; object-fit: cover;">
               </div>
 
               <!-- Content Section -->
